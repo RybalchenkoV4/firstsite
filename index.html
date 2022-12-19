@@ -32,13 +32,47 @@
     border: 3px solid rgb(2, 100, 165); /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
    }
+   ul.nav{ /* Навигационная панель */
+                margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+            }
+            .nav li { 
+                display: inline; 
+            }
+            ul.nav a {
+                display: inline-block;
+                width: 10em;
+                padding:25px;
+                background-color: #80d1ff;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                border-radius: 25px;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
   </style>
  </head>
  <body>
+    <ul class="nav" align="center" >
+        <li><a href="#" style="font-size:25px">Home</a></li>
+        <li><a href="#" style="font-size:25px">Video</a></li>
+        <li><a href="#" style="font-size:25px">Photo</a></li>
+        <li><a href="#" style="font-size:25px">Сontacts</a></li>
+        <li><a href="#" style="font-size:25px">About the site</a></li>
+    </ul>
     <table>
         <tr>
-            <td align="center"><a href="https://en.wikipedia.org/wiki/Pug"><img src="image/16367128_rm358-adj-01-a.jpg" alt="PUG" width="50%" class="round" vspace="5" hspace="5" class="leftimg"></a></td>
-            <td><p>The Pug is a breed of dog originally from China, with physically distinctive features of a wrinkly, 
+            <td align="center">
+                <a href="https://en.wikipedia.org/wiki/Pug">
+                    <img src="image/16367128_rm358-adj-01-a.jpg" alt="PUG" width="50%" class="round" vspace="5" hspace="5" class="leftimg">
+                </a>
+            </td>
+            <td>
+                <p>The Pug is a breed of dog originally from China, with physically distinctive features of a wrinkly, 
             short-muzzled face and curled tail. The breed has a fine, glossy coat that comes in a variety of colors, 
             most often light brown (fawn) or black, and a compact, square body with well developed and thick muscles all over the body.
 
@@ -48,7 +82,8 @@
         
             Pugs are known for being sociable and gentle companion dogs. 
             The American Kennel Club describes the breed's personality as "even-tempered and charming". 
-            Pugs remain popular into the twenty-first century, with some famous celebrity owners.</p></td>
+            Pugs remain popular into the twenty-first century, with some famous celebrity owners.</p>
+            </td>
         </tr>
     </table>
  </body>
