@@ -7,4 +7,4 @@ Hi there, I'm <a href="https://github.com/RybalchenkoV4" target="_blank">Vladimi
 This is my first steps in coding!
 </h2>
 <h3 align="center">Computer science student,  from Russia</h3>
-<p>This project is dedicated to dogs</p>
+<p align="right">This project is dedicated to dogs</p>
