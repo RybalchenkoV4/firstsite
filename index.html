@@ -4,30 +4,23 @@
   <meta charset="utf-8">
   <title>Первый сайт</title>
   <style>
-   body { margin: 0; }
-   header {
-    display: block;
-    background: #ffd46f url(6-05.png) repeat-x;
+   html { height: 100%; }
+   body {   
+    margin: 0; 
+    background-image: url('image/17545.jpg');/* фоновый рисунок */
+    background-attachment: fixed;/* фиксация фонового рисунка, не дает ему прокручиваться */
+    background-size: cover;/* рисунок запосняет все пространство */
+    height: 100%;
    }
-   .header-bg {
-    background: url(6-05.png.png) repeat-x center bottom; 
-    height: 405px; /* Высота шапки */
-    text-align: center; /* Выравнивание по центру */
+   .round {
+    border-radius: 100%; /* Радиус скругления */
+    border: 3px solid rgb(2, 100, 165); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
    }
-   .header-bg img {
-    position: relative; /* Относительное позиционирование */
-    top: 40px; /* Сдвигаем картинку вниз */
-   }
-   body {
-    background: rgb(31, 240, 251); /* Цвет фона */
-   }
+
   </style>
  </head>
  <body>
-  <header>
-   <div class="header-bg">
-    <img src="6-05.png" alt="Первый пробный сайт" width="100%">
-   </div>
-  </header>
+    <p><img src="image/16367128_rm358-adj-01-a.jpg" alt="" width="15%" class="round">PUG</p>
  </body>
 </html>
