@@ -1,9 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <h1 align="center" style="font-size:167px">BIG SITE FOR PUGS</h1>
+  <meta charset="utf-8">
+  <title>FP Contacts</title>
+        <style>
+            @font-face {
+    font-family: HellasDustCyrillic; /* Гарнитура шрифта */
+    src: url(font/HellasDustCyrillic.otf); /* Путь к файлу со шрифтом */
+   }
+
+   html { 
+    height: 100%;
+    font-family: HellasDustCyrillic;
+    }
+
+   body {   
+    margin: 0; 
+    background-image: url('image/17545.jpg');/* фоновый рисунок */
+    background-attachment: fixed;/* фиксация фонового рисунка, не дает ему прокручиваться */
+    background-size: cover;/* рисунок запосняет все пространство */
+    height: 100%;
+   }
+
+   .round {
+    border-radius: 100%; /* Радиус скругления */
+    border: 3px solid rgb(2, 100, 165); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+   ul.nav{ /* Навигационная панель */
+                margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+            }
+            .nav li { 
+                display: inline; 
+            }
+            ul.nav a {
+                display: inline-block;
+                width: 10em;
+                padding:25px;
+                background-color: #80d1ff;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                border-radius: 25px;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+        </style>
 
     </head>
     <body>
-        
+        <ul class="nav" align="center" >
+            <li><a href="index.html" style="font-size:25px">Home</a></li>
+            <li><a href="#" style="font-size:25px">Video</a></li>
+            <li><a href="#" style="font-size:25px">Photo</a></li>
+            <li><a href="Contacts.html" style="font-size:25px">Сontacts</a></li>
+            <li><a href="#" style="font-size:25px">About the site</a></li>
+        </ul>
+
     </body>
 </html>
